@@ -1,0 +1,26 @@
+ants_init: 20:                  #Ants at the beginning of the simulation
+ants_max: 20:                  maximum #Ants in the Simulation
+explorers_init: 10: TODO
+carriers_init: 5: TODO
+explorers_max: 10: TODO
+carriers_max: 5: TODO
+probability_new_ant: 0:        probability for a new ant to spawn after every cycle
+probability_new_explorer: 0: TODO
+probability_new_carrier: 0: TODO
+greediness: 100:               1-100% - percentage with which an ant will follow the strongest pheromone
+greediness_food: 100:          1-100% - percentage with which an ant will pickup food from foodsources
+evaporation: 95:               if evaporation_type == 1: evaporation constant || if evaporation_type == 2: 1-100% - how much percentage of the pheromone remains after evaporation
+loops: 10000:                    maximum #Cycles in our simulation
+evaporation_type: 2:           1 == constant evaporation, 2 == factorial evaporation
+thickness: 1:                  0 == vollstaendig, 1 == labyrinth
+food_src_count: 5:             maximum #FoodSources
+food_max: 10:                   maximum #Food in any Source
+food_min: 2:                   minimum #Food in any Source
+size_x: 8:                    x (horizontal) size of the grid
+size_y: 8:                    y (vertical) size of the grid
+wait: 1:                      whether to wait for user-input (Enter) between cycles
+graphic_scale: 100:             size of the graphical representation (scale*scale per node), default = 100
+e: 0:                           bool - creates graph with suboptimal pheromone path to foodsource use with 5x5 grid
+f: 1:                           bool - creates graph with pheromone path to foodsource, which is interrupted by a missing edge use with 5x5 grid
+a: 0:                           bool - aufgaben a/b
+aufgabe: 2: TODO
